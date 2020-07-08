@@ -1,0 +1,131 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    margin-right: 30px;
+    margin-top: 10px;
+}
+
+header ul li {
+    margin: 8px;
+
+    font-size: 13px;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+header ul li a:hover {
+    text-decoration: underline;
+}
+
+#apps {
+    display: grid;
+    grid-template-rows: 4px 4px 4px;
+    grid-template-columns: 4px 4px 4px;
+    row-gap: 2px;
+    column-gap: 2px;
+}
+
+#apps div {
+    background-color: grey;
+}
+
+#sign-in {
+    color: white;
+    background-color: #4f73ff;
+    border: 0;
+    border-radius: 2px;
+    font-weight: bold;
+
+    padding: 6px 12px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#searchbar {
+    width: 500px;
+    height: 40px;
+    margin: 35px;
+
+    border: 1px solid #e1dddd;
+    border-radius: 40px;
+    background-color: white;
+}
+
+#buttons {
+    display: flex;
+    justify-content: center;
+}
+
+input[type="button"], input[type="submit"] {
+    padding: 8px 15px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    margin: 0 10px;
+
+    font-size: 14px;
+    color: #827d7d;
+    background-color: #f5f5f5;
+}
+
+input[type="button"]:hover, input[type="submit"]:hover {
+    border: 1px solid #e1dddd;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    background-color: #f5f5f5;
+    border-top: 1px solid #d3d3d3;
+    border-bottom: 1px solid #d3d3d3;
+}
+
+footer ul li {
+    margin: 12px 10px;
+
+    font-size: 14px;
+}
+
+footer ul li a {
+    color: #827d7d;
+    text-decoration: none;
+}
+
+footer ul li a:hover {
+    text-decoration: underline;
+}
+
+.footer-left {
+    float: left;
+}
+
+.footer-right {
+    float: right;
+}
