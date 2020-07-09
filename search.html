@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="css/reset.css">
+        <link rel="stylesheet" type="text/css" href="css/search.css">
+
+        <title>build this webpage - Fake Google Search</title>
+    </head>
+
+    <body>
+        <header>
+            <div id="header-top">
+                <a href="index.html"><img id="header-logo" src="assets/googlelogo.png"></a>
+                
+                <form id="searchbar">
+                    <input type="text" placeholder="build this webpage">
+                    <input type="submit" value="">
+                </form>
+            </div>
+
+            <div id="header-bottom">
+                <div id="header-bottom-items">
+                    <a href="#" class="text-and-icon">
+                        <svg class="small-icon" focusable="false" viewBox="0 0 24 24"><path d="M10 2v2a6 6 0 0 1 6 6h2a8 8 0 0 0-8-8" fill="#34A853"></path><path d="M10 4V2a8 8 0 0 0-8 8h2c0-3.3 2.7-6 6-6" fill="#EA4335"></path><path d="M4 10H2a8 8 0 0 0 8 8v-2c-3.3 0-6-2.69-6-6" fill="#FBBC04"></path><path d="M22 20.59l-5.69-5.69A7.96 7.96 0 0 0 18 10h-2a6 6 0 0 1-6 6v2c1.85 0 3.52-.64 4.88-1.68l5.69 5.69L22 20.59" fill="#4285F4"></path></svg>
+                        All
+                    </a>
+
+                    <a href="#" class="text-and-icon">
+                        <svg class="small-icon" focusable="false" viewBox="0 0 24 24"><path d="M12 11h6v2h-6v-2zm-6 6h12v-2H6v2zm0-4h4V7H6v6zm16-7.22v12.44c0 1.54-1.34 2.78-3 2.78H5c-1.64 0-3-1.25-3-2.78V5.78C2 4.26 3.36 3 5 3h14c1.64 0 3 1.25 3 2.78zM19.99 12V5.78c0-.42-.46-.78-1-.78H5c-.54 0-1 .36-1 .78v12.44c0 .42.46.78 1 .78h14c.54 0 1-.36 1-.78V12zM12 9h6V7h-6v2"></path></svg>
+                        News
+                    </a>
+
+                    <a href="#" class="text-and-icon">
+                        <svg class="small-icon" focusable="false" viewBox="0 0 16 16"><path d="M7.503 0c3.09 0 5.502 2.487 5.502 5.427 0 2.337-1.13 3.694-2.26 5.05-.454.528-.906 1.13-1.358 1.734-.452.603-.754 1.508-.98 1.96-.226.452-.377.829-.904.829-.528 0-.678-.377-.905-.83-.226-.451-.527-1.356-.98-1.959-.452-.603-.904-1.206-1.356-1.734C3.132 9.121 2 7.764 2 5.427 2 2.487 4.412 0 7.503 0zm0 1.364c-2.283 0-4.14 1.822-4.14 4.063 0 1.843.86 2.873 1.946 4.177.468.547.942 1.178 1.4 1.79.34.452.596.99.794 1.444.198-.455.453-.992.793-1.445.459-.61.931-1.242 1.413-1.803 1.074-1.29 1.933-2.32 1.933-4.163 0-2.24-1.858-4.063-4.139-4.063zm0 2.734a1.33 1.33 0 11-.001 2.658 1.33 1.33 0 010-2.658"></path></svg>
+                        Maps
+                    </a>
+
+                    <a href="#" class="text-and-icon">
+                        <svg class="small-icon" focusable="false" viewBox="0 0 24 24"><path d="M10 16.5l6-4.5-6-4.5v9zM5 20h14a1 1 0 0 0 1-1V5a1 1 0 0 0-1-1H5a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1zm14.5 2H5a3 3 0 0 1-3-3V4.4A2.4 2.4 0 0 1 4.4 2h15.2A2.4 2.4 0 0 1 22 4.4v15.1a2.5 2.5 0 0 1-2.5 2.5"></path></svg>
+                        Videos
+                    </a>
+
+                    <a href="#" class="text-and-icon">
+                        <svg class="small-icon" focusable="false" viewBox="0 0 24 24"><path d="M14 13l4 5H6l4-4 1.79 1.78L14 13zm-6.01-2.99A2 2 0 0 0 8 6a2 2 0 0 0-.01 4.01zM22 5v14a3 3 0 0 1-3 2.99H5c-1.64 0-3-1.36-3-3V5c0-1.64 1.36-3 3-3h14c1.65 0 3 1.36 3 3zm-2.01 0a1 1 0 0 0-1-1H5a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1h7v-.01h7a1 1 0 0 0 1-1V5"></path></svg>
+                        Images
+                    </a>
+
+                    <a href="#" class="text-and-icon">
+                        <svg class="small-icon" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zm0 2c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm0 6c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2z"></path></svg>
+                        More
+                    </a>
+
+                    <a href="#" class="text-and-icon">
+                        Settings
+                    </a>
+
+                    <a href="#" class="text-and-icon">
+                        Tools
+                    </a>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <div id="result-count">
+                About 91,500,000 results (0.43 seconds)
+            </div>
+
+            <div class="result">
+                <div class="result-link">
+                    victor-lf.github.io <span class="result-link-sub">› google-search-results</span>
+                    <span class="arrow-down"></span>              
+                </div>
+
+                <div class="result-title">
+                    <a href="https://victor-lf.github.io/google-search-results/">build this webpage - GitHub Pages</a>
+                </div>
+
+                <div class="result-desc">
+                    <strong>build this webpage</strong>. https://benjdelt.github.io/google-results/. With zero coding experience, artist building 180 webpages in 180 days ...
+                </div>
+            </div>
+
+            <div class="result">
+                <div class="result-link">
+                    christine-27.github.io <span class="result-link-sub">› google-homepage</span>
+                    <span class="arrow-down"></span>              
+                </div>
+
+                <div class="result-title">
+                    <a href="https://christine-27.github.io/google-homepage/">build this webpage - GitHub Pages</a>
+                </div>
+
+                <div class="result-desc">
+                    With zero coding experience, artist <strong>building</strong> 180 <strong>webpages</strong> in 180 days. hhttps://arstechnica.com/.../with-zero-coding-experience-artist-<strong>building</strong>-180-webpages-.
+                </div>
+            </div>
+
+            <label id="video-text">Videos</label>
+            <div class="videos">
+                <div class="video-box">
+                    
+                    <div class="video-preview">
+                        <img class="video-thumbnail" src="https://img.youtube.com/vi/YWA-xbsJrVg/0.jpg">
+                        <div class="play-button"></div>
+                        <div class="video-length">12:22</div>
+                    </div>
+                    
+                    <div class="video-title">
+                        <a href="https://www.youtube.com/watch?v=YWA-xbsJrVg">How to Make a Website in 10 mins - Simple & Easy</a>
+                    </div>
+
+                    <div class="video-meta">
+                        Website Learners<br>
+                        <span class="youtube-text">YouTube</span> - Jan 3, 2018
+                    </div>
+                </div>
+
+                <div class="video-box">
+                    <div class="video-preview">
+                        <img class="video-thumbnail" src="https://img.youtube.com/vi/l3mUE6qj2Qg/0.jpg">
+                        <div class="play-button"></div>
+                        <div class="video-length">4:54</div>
+                    </div>
+
+                    <div class="video-title">
+                        <a href="https://www.youtube.com/watch?v=l3mUE6qj2Qg">How To Build a Website Without Code | Everyone Can Build a ...</a>
+                    </div>
+
+                    <div class="video-meta">
+                        Roberto Blake<br>
+                        <span class="youtube-text">Youtube</span> - Nov 8, 2016
+                    </div>
+                </div>
+
+                <div class="video-box">
+                    <div class="video-preview">
+                        <img class="video-thumbnail" src="https://img.youtube.com/vi/Fyg4RKkn8Hw/0.jpg">
+                        <div class="play-button"></div>
+                        <div class="video-length">16:58</div>
+                    </div>
+
+                    <div class="video-title">
+                        <a href="https://www.youtube.com/watch?v=Fyg4RKkn8Hw">How To Build A Website From Scratch [IN 20 MINS]</a>
+                    </div>
+
+                    <div class="video-meta">
+                        Create WP Site<br>
+                        <span class="youtube-text">Youtube</span> - Apr 1, 2016
+                    </div>
+                </div>
+            </div> 
+
+            <div class="result">
+                <div class="result-link">
+                    www.websitebuilderexpert.com <span class="result-link-sub">› building-websites</span>
+                    <span class="arrow-down"></span>              
+                </div>
+
+                <div class="result-title">
+                    <a href="https://www.websitebuilderexpert.com/building-websites/">How to Build a Website 2020 | The Complete Beginner's Guide</a>
+                </div>
+
+                <div class="result-desc">
+                    <span class="result-desc-date">Jun 5, 2020</span> - How to <strong>Build</strong> a <strong>Website</strong>: the Step-by-Step Guide to Easy Setup. We'll look at how to make a <strong>website</strong> with both a <strong>website</strong> builder and WordPress, ...
+                </div>
+            </div>
+
+            <div class="result">
+                <div class="result-link">
+                    arstechnica.com <span class="result-link-sub">› information-technology › 2013/07</span>
+                    <span class="arrow-down"></span>              
+                </div>
+
+                <div class="result-title">
+                    <a href="https://arstechnica.com/information-technology/2013/07/with-zero-coding-experience-artist-building-180-webpages-in-180-days/">With zero coding experience, artist building 180 webpages in ...</a>
+                </div>
+
+                <div class="result-desc">
+                    <span class="result-desc-date">Jul 26, 2013</span> - One of Jennifer Dewalt's creations, this <strong>webpage</strong> lets visitors create paintings in ... <strong>Build</strong> a different <strong>website</strong> every day for 180 consecutive days.
+                </div>
+            </div>
+
+            <div id="people-also-ask">
+                <div id="people-also-ask-title">People also ask</div>
+                <ul>
+                    <li>
+                        <p>How can I create my own webpage?</p>
+                        <svg focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"></path></svg>
+                    </li>
+                    <li>
+                        <p>What is the best website builder 2020?</p>
+                        <svg focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"></path></svg>
+                    </li>
+                    <li>
+                        <p>How can I create my own website on Google?</p>
+                        <svg focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"></path></svg>
+                    </li>
+                </ul>
+            </div>
+            <div class="feedback"><em>Feedback</em></div>
+
+            <div class="result">
+                <div class="result-link">
+                    www.pcmag.com <span class="result-link-sub">› ... › Web Hosting</span>
+                    <span class="arrow-down"></span>              
+                </div>
+
+                <div class="result-title">
+                    <a href="https://www.pcmag.com/news/how-to-create-a-website">How to Create a Website | PCMag</a>
+                </div>
+
+                <div class="result-desc">
+                    If you need to quickly <strong>build</strong> a simple <strong>website</strong>, starting with a blogging service is a great way to go. The major player in the blog game is WordPress, a content ...
+                </div>
+            </div>
+
+            <div class="result">
+                <div class="result-link">
+                    www.builthis.io <span class="result-link-sub">› make-a-website</span>
+                    <span class="arrow-down"></span>              
+                </div>
+
+                <div class="result-title">
+                    <a href="https://www.buildthis.io/make-a-website/">How to Build A Website: A-to-Z Beginner Guide - BuildThis.io</a>
+                </div>
+
+                <div class="result-desc">
+                    <span class="result-desc-date">Apr 21, 2020</span> - In this article, I will show you the essential steps in <strong>creating</strong> a <strong>website</strong>. Register a domain name; Signup for a web hosting; Design your ...
+                </div>
+            </div>
+
+            <div class="result">
+                <div class="result-link">
+                    www.google.com <span class="result-link-sub">› business › website-builder</span>
+                    <span class="arrow-down"></span>              
+                </div>
+
+                <div class="result-title">
+                    <a href="https://www.google.com/business/website-builder/">Free Website Builder For Your Business - Google My Business</a>
+                </div>
+
+                <div class="result-desc">
+                    Let Google <strong>build</strong> your first <strong>website</strong> for free. We'll help you create a beautiful <strong>website</strong> to impress and engage new customers – and establish your business online.
+                </div>
+            </div>
+
+            <div class="result">
+                <div class="result-link">
+                    www.website.com
+                    <span class="arrow-down"></span>              
+                </div>
+
+                <div class="result-title">
+                    <a href="https://www.website.com/">Create Your Website for Free | Free Site Builder | Website.com</a>
+                </div>
+
+                <div class="result-desc">
+                    Domain names, web hosting, <strong>website</strong> templates, and ecommerce solutions ... <strong>Build</strong> a credible brand identity with your custom domain name - included for free ...
+                </div>
+            </div>
+
+            <div class="result-title"><a href="#">Images for build this webpage</a></div>
+            <div class="image-related">
+                <ul>
+                    <li>personal website</li>
+                    <li>weebly</li>
+                    <li>css</li>
+                    <li>web design</li>
+                    <li>portfolio</li>
+                    <li>wordpress</li>
+                    <li>template</li>
+                    <li>wix</li>
+                </ul>
+            </div>
+            <div class="images">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDrUAaLvbm54XY2YSW9noZbnWyFPxR9MSot8fGg9EG&s">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRk3ZjacP3ep1J2bvp8mOCkD2miNgyO0W_2xXlZlXN_tg&s">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJy7LiycsmR3wko3xfPniruVBRmPFn9TK-f2nhyeeHgQ&s">
+            </div>
+            <div id="more-images">
+                <div id="arrow-and-more-images">
+                    <svg focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"></path></svg>
+                    <a href="#">More images for build this webpage</a>
+                </div>
+                <div id="report-images">Report images</div>
+            </div>
+
+            <div class="result-title">People also search for</div>
+            <div id="search-for">
+                <div id="search-for-title">
+                    <div>Web design program</div>
+                    <span style="transform:scale3d(1, -1, 1)">
+                        <svg focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"></path></svg>
+                    </span>
+                </div>
+
+                <div id="search-for-results">
+                    <div class="search-for-result-box">
+                        <img class="search-for-results-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPBao2ICgOkWq6z_TGCjwsVhGVp-xgAMICPkYk&s=0">
+                        <a class="search-for-results-title" href="#">Mobirise</a>
+                    </div>
+
+                    <div class="search-for-result-box">
+                        <img class="search-for-results-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGpxEcPLfUYVJbhwcMVGV48_HhNo1xqquKZ43xtSzXCIwCjbA1R5Bf&s=0">
+                        <a class="search-for-results-title" href="#">Google Web Designer</a>
+                    </div>
+
+                    <div class="search-for-result-box">
+                        <img class="search-for-results-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKVQdUeY0BGdGpCkABB5FTYO2zy6KgBHESkG66&s=0">
+                        <a class="search-for-results-title" href="#">Adobe Dreamwe...</a>
+                    </div>
+                    
+                    <div class="search-for-result-box">
+                        <img class="search-for-results-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxbBkr_rAMLUtplLAWNBfqGL5Zn6tfnbGLGNeT&s=0">
+                        <a class="search-for-results-title" href="#">RapidWe...</a>
+                    </div>
+                    
+                    <div class="search-for-result-box">
+                        <img class="search-for-results-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6bsRXSOV_BTPZzw3GTN6YMHAdGhJnMQ6beMiA37HvcazUhroQEg&s=0">
+                        <a class="search-for-results-title" href="#">openEle...</a>
+                    </div>
+
+                    <div class="search-for-result-box">
+                        <img class="search-for-results-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8oK3CRnFdjqtU1L4KNML7nIOKAZ-g2lb56CNex7ctUAFVSIEA_3SJ&s=0">
+                        <a class="search-for-results-title" href="#">Microsoft Expression Web</a>
+                    </div>
+
+                </div>
+
+                <div id="search-for-see-more">
+                    <svg focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"></path></svg>
+                    <a href="#">See more</a>
+                    <div></div>
+                </div>
+            </div>
+            <div class="feedback"><em>Feedback</em></div>
+
+            <div class="result-title" style="margin-top: 20px;">Searches related to build this webpage</div>
+            <div class="related">
+                <a href="#">website</a>
+                <a href="#">github</a>
+                <a href="#">how to build a website from scratch</a>
+                <a href="#">the odin project</a>
+                <a href="#">create professional website</a>
+                <a href="#">how to create a website free of cost</a>
+                <a href="#">build a website free</a>
+                <a href="#">creating a website for your business</a>
+            </div>
+
+            <div id="page-selector">
+                <img src="assets/googlelogo.png">
+                <svg focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"></path></svg>
+                <div id="page-links">
+                    <a href="#">1</a> <a href="#">2</a> <a href="#">3</a> <a href="#">4</a> <a href="#">5</a> <a href="#">6</a> <a href="#"7></a> <a href="#">8</a> <a href="#">9</a> <a href="#">10</a>
+                </div>
+                <div><a href="#">Next</a></div>
+            </div>
+        </main>
+
+        <footer>
+            <ul>
+                <li><a href="#">Help</a></li>
+                <li><a href="#">Send feedback</a></li>
+                <li><a href="#">Privacy</a></li>
+                <li><a href="#">Terms</a></li>
+            </ul>
+        </footer>
+    </body>
+</html>
